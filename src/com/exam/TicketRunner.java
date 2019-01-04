@@ -14,9 +14,10 @@ public class TicketRunner {
 			//origin, destination, price, quantity
 			Ticket ticket = new Ticket("Taipei", "Keelung", 37, 2);
 			order.add(ticket);
-			//ticket = new Ticket("TaiChung", "Taipei", 285, 1);
-			//order.add(ticket);
-			//order.print();
+			ticket = new Ticket("TaiChung", "Taipei", 285, 1);
+			order.add(ticket);
+			order.print();
+			
 	}
 
 }
